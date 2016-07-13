@@ -1,0 +1,158 @@
+body
+{
+	margin:0px;
+	font-family:"Myriad Pro";	
+	font-size:25px;
+}
+.all
+{
+	position:relative;
+	left:50%;
+	margin-left:-150px;
+	width:300px;
+	height:450px;
+	background-color:rgba(245,245,245,0.8);
+	box-shadow:0px 0px 15px rgba(50,50,50,0.8); 
+	padding:5px;
+	margin-top:50px;
+
+}
+.clear
+{
+	clear: both;
+}
+.contentWrapper
+{
+	width:280px;
+	margin:auto;
+}
+.monitorStyle
+{
+	width:286px;
+	height:75px;
+	padding:4px 5px;
+	border-style:solid;
+	font-size:25px;
+	border-color:rgba(150,150,150,0.5);
+	text-align:right;
+}
+
+.btnTopLeft
+{
+	float:left;
+	width:70px;
+	height:70px;
+	border-style:solid;
+	border-color:rgba(245,245,245,0.8);
+	padding:10px;
+	background-color:rgba(100,100,100,0.8);
+	font-size:20px;
+	color:white;	
+}
+.btnTopLeft:hover
+{
+	background-color:rgba(100,100,100,1);
+	cursor:pointer;
+}
+.btnTopRight
+{
+	float:left;
+	width:70px;
+	height:70px;
+	border-style:solid;
+	border-color:rgba(245,245,245,0.8);
+	padding:10px;
+	background-color:rgba(209, 72, 54, 0.83);
+	font-size:20px;
+	color:white;	
+}
+.btnTopRight:hover
+{
+	background-color:rgba(209, 72, 54, 1);
+	cursor:pointer;
+}
+.btnStyle
+{
+	float:left;
+	margin:px;
+	width:70px;
+	height:70px;
+	border-style:solid;
+	border-color:white;
+	padding:10px;
+	background-color:rgba(50,50,50,0.7);
+	font-size:20px;
+	color:white;	
+}
+.btnStyle:hover
+{
+	cursor:pointer;
+}
+
+.numberStyle
+{
+	background-color:rgba(200,200,200,1);
+}
+.numberStyle:hover
+{
+	background-color:rgba(200,200,200,0.8);
+}
+.equ
+{
+	background-color:rgba(56,124,235,1);
+}
+.equ:hover
+{
+	background-color:rgba(56,124,235,0.8);
+}
+.signStyle
+{
+	background-color:rgba(150,150,150,1);
+}
+.signStyle:hover
+{
+	background-color:rgba(150,150,150,0.8);
+}
+.extension
+{
+	height:280px;
+	position:relative;
+	margin-top:-280px;
+	left:101%;
+	width:10px;
+	background-color:rgba(245,245,245,0.8);
+}
+.extension:hover
+{
+	box-shadow:2px 2px 15px rgba(50,50,50,0.8); 	
+	width:80px;
+}
+.extension:hover .extensionStyle
+{
+	display:block;
+}
+.extensionStyle
+{	
+	left:5%;
+	position:relative;
+	bottom:100%;
+	display:block;
+	margin:0px;
+	width:70px;
+	height:70px;
+	border-style:solid;
+	border-color:white;
+	padding:10px;
+	background-color:rgba(50,50,50,0.7);
+	font-size:20px;
+	color:white;	
+	cursor:pointer;
+	display:none;
+}
+
+
+
+
+
+
+

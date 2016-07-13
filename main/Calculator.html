@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+		<link href="bootstrap.css" type="text/css" rel="stylesheet"/>
+		<meta charset="UTF-8"/>
+		<title>Calculator</title>
+	</head>
+	<body>	
+		<div class="all">
+		
+		
+			<div class="header">
+				<div class="headerWrapper">
+					<form action="#"  method="post">
+						<input  id="calcDisplay" class="monitorStyle" placeholder="0" type="text" readonly />
+					</form>
+				</div>
+			</div>
+			
+			
+			<div class="content mgt10">
+				<div class="contentWrapper">
+					<div class="contentTop">
+						<input class="btnTopLeft  " type="submit" onclick="Copy()" value="Copy"/>
+						<input class="btnTopLeft " type="submit" onclick="Past()" value="Past"/>
+						<input class="btnTopRight f30" type="submit" onclick="backSpace()" value="&#8592"/>
+						<input class="btnTopRight" type="submit" onclick="Clear()" value="C"/>
+					</div>
+					<div class="clear"></div>
+					<div class="numbers">
+							<input class="btnStyle numberStyle" type="submit" value="7" onclick="nmb7()"/>						
+							<input class="btnStyle numberStyle" type="submit" value="8" onclick="nmb8()"/>					
+							<input class="btnStyle numberStyle" type="submit" value="9" onclick="nmb9()"/>						
+							<input class="btnStyle signStyle" type="submit" value="&divide" onclick="Div()"/>						
+							<input class="btnStyle numberStyle" type="submit" value="4" onclick="nmb4()"/>					
+							<input class="btnStyle numberStyle" type="submit" value="5" onclick="nmb5()"/>					
+							<input class="btnStyle numberStyle" type="submit" value="6" onclick="nmb6()"/>					
+							<input class="btnStyle signStyle" type="submit" value="x" onclick="Mul()"/>					
+							<input class="btnStyle numberStyle" type="submit" value="1" onclick="nmb1()"/>					
+							<input class="btnStyle numberStyle" type="submit" value="2" onclick="nmb2()"/>
+							<input class="btnStyle numberStyle" type="submit" value="3" onclick="nmb3()"/>
+							<input class="btnStyle signStyle" type="submit" value="-" onclick="Minus()"/>
+							<input class="btnStyle numberStyle" type="submit" value="0" onclick="nmb0()"/>
+							<input class="btnStyle numberStyle" type="submit" value="." onclick="Dot()"/>
+							<input class="btnStyle equ" type="submit" value="=" onclick="Equ()"/>
+							<input class="btnStyle signStyle" type="submit" value="+" onclick="Plus()"/>
+					</div>	
+					<div class="clear"></div>
+					<div class="extension">
+						<input class="signStyle extensionStyle" type="submit" value="√" onclick="squareRoot()"/>
+						<input class="signStyle extensionStyle" type="submit" value="%" onclick="Perc()"/>
+						<input class="signStyle extensionStyle" type="submit" value="(" onclick="scopL()"/>
+						<input class="signStyle extensionStyle" type="submit" value=")" onclick="scopR()"/>
+					</div>
+					<div class="clear"></div>
+				</div>	
+				
+			</div>
+		</div>	
+		<script type="text/Javascript" src="js/custom.js"></script>
+	</body>
+</html>
+
+
+
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
