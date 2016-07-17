@@ -171,7 +171,7 @@ function scopL()
 		cv = document.getElementById("calcDisplay").value;
 		document.getElementById("calcDisplay").value = cv +"(";
 		ch = false;
-		scopCh==true;
+		scopCh=true;
 	}
 }
 function scopR()
@@ -181,7 +181,7 @@ function scopR()
 		cv = document.getElementById("calcDisplay").value;
 		document.getElementById("calcDisplay").value = cv +")";
 		ch = false;
-		scopCh==false;
+		scopCh=false;
 	}
 }
 function Perc()
